@@ -1,0 +1,742 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Omkar Sarvankar | Java Full Stack Developer</title>
+
+    <meta name="description" content="Portfolio of Omkar Sarvankar, Java Full Stack Developer specializing in Java, Spring Boot, PostgreSQL and web development.">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- BACKGROUND DECORATION -->
+<div class="ambient ambient-one"></div>
+<div class="ambient ambient-two"></div>
+
+
+<!-- ================= HEADER ================= -->
+
+<header class="header" id="header">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">OS</span>
+            <span>Omkar Sarvankar<span class="logo-dot"></span></span>
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- RESUME PDF: Stored inside the assets folder -->
+        <a href="assets/Omkar_Sarvankar_Resume.pdf" download class="nav-resume">
+              Resume <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero container" id="home">
+
+    <div class="hero-content">
+
+        <div class="availability">
+            <span class="availability-dot"></span>
+            Available for opportunities
+        </div>
+
+        <p class="eyebrow">HELLO, I'M OMKAR SARVANKAR</p>
+
+        <h1>
+            Building Digital<br>
+            Experiences with
+            <span class="highlight">Code.</span>
+        </h1>
+
+        <h2 class="hero-role">
+            <span id="typed"></span><span class="cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+            Java Full Stack Developer and Information
+            Technology graduate. I build practical web applications,
+            develop backend solutions and turn ideas into functional
+            digital products.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn btn-primary">
+                Explore My Work
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+                Let's Connect
+            </a>
+
+        </div>
+
+        <!-- SOCIAL LINKS -->
+
+        <div class="hero-social">
+
+            <!-- GITHUB: Replace with your GitHub profile URL -->
+            <a href="https://github.com/Omkarsarvankar18"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <!-- LINKEDIN: REPLACE WITH YOUR ACTUAL LINKEDIN PROFILE URL -->
+            <a href="https://www.linkedin.com/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <!-- EMAIL: REPLACE WITH YOUR ACTUAL EMAIL ADDRESS -->
+            <a href="mailto:osarvankar5@gmail.com"
+               aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROFILE PHOTO -->
+
+    <div class="hero-visual">
+
+        <div class="photo-decoration decoration-one"></div>
+        <div class="photo-decoration decoration-two"></div>
+
+        <div class="photo-frame">
+
+            <!--
+                PROFILE PHOTO:
+                OPTION 1: Keep your image in this folder and name it profile.jpg
+                OPTION 2: Replace profile.jpg with your online image URL.
+            -->
+
+            <img
+                src="assets\Omkar profile photo.png"
+                alt="Omkar Sarvankar - Java Full Stack Developer"
+                class="profile-photo"
+                onerror="this.style.display='none';document.getElementById('photoFallback').style.display='flex';"
+            >
+
+            <div class="photo-fallback" id="photoFallback">
+                <i class="fa-solid fa-user"></i>
+                <span>ADD YOUR PHOTO</span>
+            </div>
+
+            <div class="photo-caption">
+                <span class="caption-dot"></span>
+                Java Full Stack Developer
+            </div>
+
+        </div>
+
+        <div class="floating-card floating-top">
+            <i class="fa-brands fa-java"></i>
+            <div>
+                <strong>Java</strong>
+                <small>Backend Development</small>
+            </div>
+        </div>
+
+        <div class="floating-card floating-bottom">
+            <i class="fa-solid fa-code"></i>
+            <div>
+                <strong>Spring Boot</strong>
+                <small>REST API Development</small>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= QUICK HIGHLIGHTS ================= -->
+
+<section class="highlights container">
+
+    <div class="highlight-item">
+        <i class="fa-solid fa-laptop-code"></i>
+        <div>
+            <strong>Full Stack</strong>
+            <span>Development</span>
+        </div>
+    </div>
+
+    <div class="highlight-item">
+        <i class="fa-brands fa-java"></i>
+        <div>
+            <strong>Java</strong>
+            <span>Programming</span>
+        </div>
+    </div>
+
+    <div class="highlight-item">
+        <i class="fa-solid fa-database"></i>
+        <div>
+            <strong>PostgreSQL</strong>
+            <span>Database</span>
+        </div>
+    </div>
+
+    <div class="highlight-item">
+        <i class="fa-solid fa-layer-group"></i>
+        <div>
+            <strong>REST APIs</strong>
+            <span>Backend Services</span>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section container" id="about">
+
+    <div class="section-heading">
+        <span class="section-tag">INTRODUCTION</span>
+        <h2>About <span class="highlight">Me</span></h2>
+        <p>A little about my journey in technology.</p>
+    </div>
+
+    <div class="about-layout">
+
+        <div class="about-main">
+
+            <h3>Passionate about creating meaningful software.</h3>
+
+            <p>
+                I'm a final-year Information Technology engineering
+                student at Mumbai University with a strong interest
+                in software development and backend engineering.
+            </p>
+
+            <p>
+                I have hands-on experience working with Java,
+                Spring Boot, PostgreSQL, JDBC, HTML, CSS and
+                JavaScript. I enjoy building REST APIs, implementing
+                authentication systems, managing databases and
+                developing real-world applications.
+            </p>
+
+            <p>
+                My focus is to strengthen my development skills,
+                learn modern technologies and grow as a professional
+                Software Developer.
+            </p>
+
+            <a href="#contact" class="text-link">
+                Let's work together
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <div class="about-side">
+
+            <div class="about-stat">
+                <span class="stat-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+                <div>
+                    <h4>Education</h4>
+                    <p>B.E. Information Technology</p>
+                </div>
+            </div>
+
+            <div class="about-stat">
+                <span class="stat-icon">
+                    <i class="fa-solid fa-code"></i>
+                </span>
+                <div>
+                    <h4>Primary Focus</h4>
+                    <p>Java & Backend Development</p>
+                </div>
+            </div>
+
+            <div class="about-stat">
+                <span class="stat-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </span>
+                <div>
+                    <h4>University</h4>
+                    <p>Mumbai University</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section section-alt" id="skills">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-tag">MY EXPERTISE</span>
+            <h2>Technical <span class="highlight">Skills</span></h2>
+            <p>Technologies and tools I use to build applications.</p>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <p>Building application logic and server-side systems.</p>
+                <div class="skill-tags">
+                    <span>Core Java</span>
+                    <span>Advanced Java</span>
+                    <span>JDBC</span>
+                    <span>Spring</span>
+                    <span>Spring Boot</span>
+                    <span>Spring Security</span>
+                    <span>Hibernate / JPA</span>
+                    <span>REST APIs</span>
+                    <span>JWT</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <h3>Database</h3>
+                <p>Storing, managing and retrieving application data.</p>
+                <div class="skill-tags">
+                    <span>PostgreSQL</span>
+                    <span>MySQL</span>
+                    <span>SQL</span>
+                    <span>Database Design</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Creating responsive and interactive web interfaces.</p>
+                <div class="skill-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <h3>Tools & Platforms</h3>
+                <p>Development, API testing and version control.</p>
+                <div class="skill-tags">
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Postman</span>
+                    <span>Eclipse</span>
+                    <span>VS Code</span>
+                    <span>Vercel</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="section container" id="projects">
+
+    <div class="section-heading">
+        <span class="section-tag">WHAT I'VE BUILT</span>
+        <h2>Featured <span class="highlight">Projects</span></h2>
+        <p>Some of the projects I've developed and worked on.</p>
+    </div>
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+                <span class="project-index">01 / 03</span>
+                <i class="fa-solid fa-ticket project-main-icon"></i>
+            </div>
+
+            <div class="project-category">FULL STACK DEVELOPMENT</div>
+
+            <h3>Online Ticket Booking System</h3>
+
+            <p>
+                A full-stack web application for managing movies,
+                theatres, screens, seats, shows and customer bookings.
+                Includes JWT authentication and Admin/Customer
+                role-based access control.
+            </p>
+
+            <div class="project-tags">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>PostgreSQL</span>
+                <span>JWT</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="project-footer">
+
+                <!-- REPLACE WITH YOUR PROJECT REPOSITORY URL -->
+                <a href="https://github.com/Omkarsarvankar18/Ticket_Booking_System"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                    Source Code
+                </a>
+
+                <span class="project-type">Full Stack</span>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+                <span class="project-index">02 / 03</span>
+                <i class="fa-solid fa-users project-main-icon"></i>
+            </div>
+
+            <div class="project-category">JAVA BACKEND DEVELOPMENT</div>
+
+            <h3>Employee Management System</h3>
+
+            <p>
+                A Java-based application designed to manage employee
+                records and perform database operations using JDBC.
+                Demonstrates object-oriented programming and
+                SQL integration.
+            </p>
+
+            <div class="project-tags">
+                <span>Core Java</span>
+                <span>JDBC</span>
+                <span>SQL</span>
+                <span>OOP</span>
+            </div>
+
+            <div class="project-footer">
+
+                <!-- ADD THE ACTUAL PROJECT REPOSITORY LINK WHEN AVAILABLE -->
+                <a href="https://github.com/Omkarsarvankar18"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub Profile
+                </a>
+
+                <span class="project-type">Backend</span>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+                <span class="project-index">03 / 03</span>
+                <i class="fa-solid fa-brain project-main-icon"></i>
+            </div>
+
+            <div class="project-category">DEEP LEARNING</div>
+
+            <h3>News Image & Video Recognition</h3>
+
+            <p>
+                A deep learning-based project focused on recognizing
+                content from news images and videos and generating
+                short content summaries using image recognition
+                technologies.
+            </p>
+
+            <div class="project-tags">
+                <span>MobileNetV2</span>
+                <span>COCO-SSD</span>
+                <span>Node.js</span>
+                <span>SQLite</span>
+                <span>Deep Learning</span>
+            </div>
+
+            <div class="project-footer">
+
+                <!-- ADD THE ACTUAL PROJECT REPOSITORY LINK WHEN AVAILABLE -->
+                <a href="https://github.com/Omkarsarvankar18"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub Profile
+                </a>
+
+                <span class="project-type">AI / ML</span>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="section section-alt" id="education">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-tag">MY ACADEMIC JOURNEY</span>
+            <h2>Education & <span class="highlight">Learning</span></h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">CURRENTLY PURSUING</span>
+
+                    <h3>Bachelor of Engineering</h3>
+
+                    <h4>Information Technology</h4>
+
+                    <p>Mumbai University</p>
+
+                    <div class="education-badge">
+                        CGPA: 7.8
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section class="section container" id="certifications">
+
+    <div class="section-heading">
+        <span class="section-tag">PROFESSIONAL DEVELOPMENT</span>
+        <h2>Certifications</h2>
+        <p>Learning and developing skills beyond academics.</p>
+    </div>
+
+    <div class="cert-grid">
+
+        <!-- CERTIFICATE 1: AI & GREEN SKILLS -->
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fa-solid fa-leaf"></i>
+            </div>
+
+            <div class="cert-info">
+                <h3>AI & Green Skills</h3>
+                <p>Edunet Foundation – Skills4Future</p>
+
+                <!-- Replace with your actual certificate PDF filename -->
+                <a href="assets\Edunet certificate.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="cert-link">
+                    <i class="fa-solid fa-eye"></i> View Certificate
+                </a>
+            </div>
+
+            <i class="fa-solid fa-certificate cert-mark"></i>
+        </div>
+
+
+        <!-- CERTIFICATE 2: APNA COLLEGE -->
+        <div class="cert-card">
+            <div class="cert-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <div class="cert-info">
+                <h3>Delta Course</h3>
+                <p>Apna College</p>
+
+                <!-- Replace with your actual certificate PDF filename -->
+                <a href="assets\apna college certificate.jpeg"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="cert-link">
+                    <i class="fa-solid fa-eye"></i> View Certificate
+                </a>
+            </div>
+
+            <i class="fa-solid fa-certificate cert-mark"></i>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <div class="contact-content">
+
+                <span class="section-tag">GET IN TOUCH</span>
+
+                <h2>Let's Build Something <span class="highlight">Great.</span></h2>
+
+                <p>
+                    I'm always interested in learning, collaborating
+                    and exploring new opportunities in software
+                    development. Feel free to connect with me.
+                </p>
+
+                <!-- REPLACE WITH YOUR ACTUAL EMAIL ADDRESS -->
+                <a href="mailto:osarvankar5@gmail.com" class="btn btn-primary">
+                    Contact Me
+                    <i class="fa-solid fa-paper-plane"></i>
+                </a>
+
+            </div>
+
+            <div class="contact-decoration">
+                <i class="fa-solid fa-code"></i>
+                <span>Let's connect</span>
+                <span class="contact-orbit orbit-one"></span>
+                <span class="contact-orbit orbit-two"></span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">OS</span>
+            <span>Omkar Sarvankar<span class="logo-dot"></span></span>
+        </a>
+
+        <p>
+            Designed & Developed by Omkar Sarvankar
+        </p>
+
+        <div class="footer-social">
+
+            <!-- GITHUB PROFILE LINK -->
+            <a href="https://github.com/Omkarsarvankar18"
+               target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <!-- REPLACE WITH YOUR LINKEDIN URL -->
+            <a href="https://www.linkedin.com/"
+               target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © <span id="year"></span> Omkar Sarvankar. All rights reserved.
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
